@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navhome"
+        android:icon="@drawable/baseline_home_filled_24"
+        android:title="Inicio"
+        app:cnb_backgroundColor="@color/white"
+        />
+    <item
+        android:id="@+id/nav_stilo"
+        android:icon="@drawable/baseline_directions_run_24"
+        android:title="Estilo de vida"
+        app:cnb_backgroundColor="@color/white"/>
+    <item
+        android:id="@+id/navcuenta"
+        android:icon="@drawable/persona_icon"
+        android:title="Cuenta"
+        app:cnb_backgroundColor="@color/white"/>
+</menu>

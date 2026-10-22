@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".login.LoginActivity"
+android:background="@drawable/gradient_background">
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounder_cornertxt"
+        android:hint="Nombre de usuario" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:background="@drawable/rounder_cornertxt"/>
+
+    <Button
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="464dp"
+        android:layout_marginEnd="81dp"
+        android:onClick="login"
+        android:text="Iniciar sesión"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+    <TextView
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="617dp"
+        android:layout_marginEnd="92dp"
+        android:gravity="center"
+        android:text="¿No tienes una cuenta?"
+        android:textAlignment="center"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="95dp"
+        android:gravity="center"
+        android:text="Contraseña"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="95dp"
+        android:gravity="center"
+        android:text="Nombre de usuario"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="653dp"
+        android:layout_marginEnd="81dp"
+        android:onClick="goToSignup"
+        android:text="Registrate"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="177dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="116dp"
+        app:srcCompat="@drawable/account" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="#CD5C5C"
+        app:srcCompat="@drawable/arrow_back" />
+
+</RelativeLayout>
+
+
+

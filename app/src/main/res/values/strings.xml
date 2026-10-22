@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">cardvascular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string-array name="food_items">
+        <item>Manzana</item>
+        <item>Banana</item>
+        <item>Pollo</item>
+        <item>Pasta</item>
+        <item>Ensalada</item>
+    </string-array>
+    <string name="choose_food_prompt">Selecciona una comida</string>
+
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ventanas_EstVida.consejossalud.ParterialFragment"
+    android:background="@drawable/gradient_backgroundd">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="79dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"
+        android:text="Cuida tu presion arterial"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="513dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="100dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Controlar la presión arterial es esencial para mantener una buena salud cardiovascular. Aquí hay algunas estrategias clave para hacerlo:
+            \n\n- Mantener una dieta equilibrada: Consumir alimentos bajos en sodio, grasas saturadas y colesterol. Incluir frutas, verduras, granos integrales y productos lácteos bajos en grasa.
+            \n- Hacer ejercicio regularmente: Al menos 150 minutos de actividad física moderada cada semana, como caminar, nadar o andar en bicicleta.
+            \n- Mantener un peso saludable: Perder peso si tienes sobrepeso puede reducir la presión arterial.
+            \n- Reducir el consumo de alcohol: Beber con moderación o evitar el alcohol.
+            \n- No fumar: El tabaco aumenta la presión arterial y daña las paredes de los vasos sanguíneos.
+            \n- Manejar el estrés: Técnicas de relajación como el yoga, la meditación o la respiración profunda pueden ayudar a reducir la presión arterial.
+            \n- Seguir las indicaciones médicas: Tomar los medicamentos prescritos y seguir las recomendaciones del médico."
+                    android:textSize="16sp"
+                    android:paddingBottom="16dp"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Cuáles son las causas de tener presión arterial alta:"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="4dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="La presión arterial alta, también conocida como hipertensión, puede ser causada por diversos factores, entre ellos:
+            \n\n- Dieta alta en sodio: Consumir demasiada sal puede aumentar la presión arterial.
+            \n- Sobrepeso u obesidad: El exceso de peso aumenta la carga sobre el corazón.
+            \n- Falta de actividad física: Un estilo de vida sedentario contribuye a la hipertensión.
+            \n- Consumo excesivo de alcohol: Beber en exceso puede elevar la presión arterial.
+            \n- Tabaquismo: El tabaco puede endurecer las arterias y aumentar la presión arterial.
+            \n- Estrés: El estrés crónico puede contribuir a la hipertensión.
+            \n- Antecedentes familiares: La hipertensión puede ser hereditaria.
+            \n- Edad: El riesgo de hipertensión aumenta con la edad.
+            \n- Condiciones de salud subyacentes: Enfermedades como la diabetes y la enfermedad renal pueden causar hipertensión."
+                    android:textSize="16sp"
+                    android:paddingBottom="16dp"
+                    android:textColor="#333333" />
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    <ImageButton
+        android:id="@+id/btniVolver"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/indian_red"
+        android:src="@drawable/arrow_back" />
+</RelativeLayout>

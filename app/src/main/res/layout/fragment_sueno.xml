@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vetnanas_inicio.SuenoFragment"
+    android:background="@drawable/gradient_backgroundd">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="615dp"
+        android:paddingBottom="16dp"
+        android:text="Cuestionario de Sueño"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="496dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/rounded_corner_background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewBedTime"
+                android:layout_width="311dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="30dp"
+                android:text="¿A qué hora te acuestas usualmente?"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editTextBedTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewBedTime"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginEnd="33dp"
+                android:layout_marginTop="13dp"
+                android:inputType="time" />
+
+            <TextView
+                android:id="@+id/textViewWakeUpTime"
+                android:layout_width="311dp"
+                android:layout_height="46dp"
+                android:layout_below="@id/editTextBedTime"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="30dp"
+                android:text="¿A qué hora te despiertas usualmente?"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editTextWakeUpTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewWakeUpTime"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="33dp"
+                android:inputType="time" />
+
+            <TextView
+                android:id="@+id/textViewSleepHours"
+                android:layout_width="313dp"
+                android:layout_height="46dp"
+                android:layout_below="@id/editTextWakeUpTime"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="28dp"
+                android:text="¿Cuántas horas duermes por noche en promedio?"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editTextSleepHours"
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewSleepHours"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="33dp"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textViewRested"
+                android:layout_width="312dp"
+                android:layout_height="41dp"
+                android:layout_below="@id/editTextSleepHours"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="29dp"
+                android:text="¿Te sientes descansado al despertar?"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroupRested"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewRested"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="134dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="134dp">
+
+                <RadioButton
+                    android:id="@+id/radioYes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Sí" />
+
+                <RadioButton
+                    android:id="@+id/radioNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="No" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/buttonSubmitSleep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/radioGroupRested"
+                android:layout_marginTop="16dp"
+                android:text="Enviar"
+                android:backgroundTint="@color/indian_red"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textViewSleepAdvice"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_below="@id/buttonSubmitSleep"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="0dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <ImageButton
+        android:id="@+id/btniVolver"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/indian_red"
+        android:src="@drawable/arrow_back" />
+
+</RelativeLayout>

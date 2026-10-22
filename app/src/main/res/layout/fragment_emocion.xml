@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vetnanas_inicio.EmocionFragment"
+    android:background="@drawable/gradient_backgroundd">
+
+    <TextView
+        android:id="@+id/tv_prompt"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="¿Cómo te sientes en este momento?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/et_details"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounder_cornertxt"
+        android:hint="Escribe más sobre lo que sientes" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="427dp"
+        android:layout_marginEnd="129dp"
+        android:backgroundTint="@color/indian_red"
+        android:text="Enviar" />
+
+    <TextView
+        android:id="@+id/tv_recommendation"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_below="@id/btn_submit"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="72dp"
+        android:background="@color/white"
+        android:padding="8dp"
+        android:text=""
+        android:visibility="invisible"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+
+    <ImageButton
+        android:id="@+id/btn_happy"
+        android:layout_width="122dp"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="270dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/felizs"
+        android:backgroundTint="@color/colorSemitransparente"/>
+
+    <ImageButton
+        android:id="@+id/btn_angry"
+        android:layout_width="122dp"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="19dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/enojadoo"
+        android:backgroundTint="@color/colorSemitransparente"/>
+
+    <ImageButton
+        android:id="@+id/btn_sad"
+        android:layout_width="122dp"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="144dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/triste"
+        android:backgroundTint="@color/colorSemitransparente"/>
+    <ImageButton
+        android:id="@+id/btniVolver"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/indian_red"
+        android:src="@drawable/arrow_back" />
+
+
+</RelativeLayout>

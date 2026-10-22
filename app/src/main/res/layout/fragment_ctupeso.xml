@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ventanas_EstVida.consejossalud.CtupesoFragment"
+    android:background="@drawable/gradient_backgroundd">
+    <ImageButton
+        android:id="@+id/btniVolver"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/indian_red"
+        android:src="@drawable/arrow_back" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="79dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"
+        android:text="Controla tu peso"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="513dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="100dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:text="1. Cómo mantener tu peso corporal:"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Para mantener un peso corporal saludable, es fundamental llevar una dieta equilibrada y rica en nutrientes. Incluye una variedad de alimentos como frutas, verduras, granos integrales, proteínas magras y grasas saludables. Además, es importante practicar actividad física regularmente, controlar las porciones y evitar el consumo excesivo de alimentos procesados y azucarados."
+                android:textSize="16sp"
+                android:paddingBottom="16dp"
+                android:textColor="#333333" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Cómo reducir la carga sobre el corazón:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reducir la carga sobre el corazón implica adoptar hábitos de vida saludables. Esto incluye mantener un peso adecuado, hacer ejercicio regularmente, consumir una dieta baja en grasas saturadas y colesterol, reducir el consumo de sal y alcohol, y evitar el tabaco. Además, manejar el estrés a través de técnicas de relajación como el yoga o la meditación puede ser beneficioso."
+                android:textSize="16sp"
+                android:paddingBottom="16dp"
+                android:textColor="#333333" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Cómo disminuir el riesgo de enfermedades cardíacas:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disminuir el riesgo de enfermedades cardíacas se logra mediante una combinación de dieta saludable, ejercicio regular y control de factores de riesgo. Es esencial mantener una dieta baja en grasas saturadas, colesterol y sodio, y alta en frutas, verduras y granos integrales. Además, realizar al menos 150 minutos de ejercicio moderado a la semana, controlar la presión arterial, el colesterol y los niveles de azúcar en la sangre, y evitar fumar son medidas clave."
+                android:textSize="16sp"
+                android:paddingBottom="16dp"
+                android:textColor="#333333" />
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

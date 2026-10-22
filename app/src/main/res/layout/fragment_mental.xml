@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vetnanas_inicio.MentalFragment"
+    android:background="@drawable/gradient_backgroundd">
+
+    <TextView
+        android:id="@+id/textViewTitleMentalHealth"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="78dp"
+        android:paddingBottom="16dp"
+        android:text="Cuestionario de Salud Mental"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="496dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/rounded_corner_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. ¿Cómo te has sentido emocionalmente en la última semana?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"
+                android:textAlignment="center"/>
+
+            <RadioGroup
+                android:id="@+id/radio_group_pregunta1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp">
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta1_opcion1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Muy bien"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta1_opcion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bien"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta1_opcion3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Regular"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta1_opcion4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mal"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta1_opcion5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Muy mal"
+                    android:layout_marginBottom="4dp"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. ¿Con qué frecuencia te sientes estresado/a?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textAlignment="center"/>
+
+            <RadioGroup
+                android:id="@+id/radio_group_pregunta2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp">
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta2_opcion1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nunca"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta2_opcion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Raramente"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta2_opcion3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A veces"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta2_opcion4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Frecuentemente"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta2_opcion5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Siempre"
+                    android:layout_marginBottom="4dp"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. ¿Cómo calificarías tu calidad de sueño?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textAlignment="center"/>
+
+            <RadioGroup
+                android:id="@+id/radio_group_pregunta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp">
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta3_opcion1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Excelente"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta3_opcion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Buena"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta3_opcion3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Regular"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta3_opcion4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mala"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta3_opcion5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pésima"
+                    android:layout_marginBottom="4dp"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. ¿Con qué frecuencia te sientes satisfecho/a con tus relaciones personales?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textAlignment="center"/>
+
+            <RadioGroup
+                android:id="@+id/radio_group_pregunta4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp">
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta4_opcion1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Siempre"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta4_opcion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Frecuentemente"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta4_opcion3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A veces"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta4_opcion4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Raramente"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta4_opcion5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nunca"
+                    android:layout_marginBottom="4dp"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. ¿Te sientes capaz de manejar los desafíos diarios?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textAlignment="center"/>
+
+            <RadioGroup
+                android:id="@+id/radio_group_pregunta5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp">
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta5_opcion1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Siempre"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta5_opcion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Frecuentemente"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta5_opcion3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A veces"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta5_opcion4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Raramente"
+                    android:layout_marginBottom="4dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pregunta5_opcion5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nunca"
+                    android:layout_marginBottom="4dp"/>
+            </RadioGroup>
+            <Button
+                android:id="@+id/btn_calcular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calcular"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/indian_red"/>
+
+            <TextView
+                android:id="@+id/tv_resultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ImageButton
+        android:id="@+id/btniVolver"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/indian_red"
+        android:src="@drawable/arrow_back" />
+
+</RelativeLayout>

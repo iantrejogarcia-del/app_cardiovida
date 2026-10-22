@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorSemitransparente">#80000000</color>
+    <color name="indian_red">#CD5C5C</color>
+
+    <color name="primary">#913434</color>
+    <color name="hint_color">#757575</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="dialog_color_1">#FDD736</color>
+    <color name="dialog_color_2">#3B5796</color>
+</resources>

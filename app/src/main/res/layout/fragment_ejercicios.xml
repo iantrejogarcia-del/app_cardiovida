@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ventanas_EstVida.consejossalud.EjerciciosFragment"
+    android:background="@drawable/gradient_backgroundd">
+    <ImageButton
+        android:id="@+id/btniVolver"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/indian_red"
+        android:src="@drawable/arrow_back" />
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="79dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"
+        android:text="La importancia de hacer ejercicio diario"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="513dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El ejercicio diario es crucial para mantener una buena salud física y mental. Ayuda a controlar el peso, reduce el riesgo de enfermedades crónicas, mejora el estado de ánimo y promueve una mejor calidad del sueño."
+                android:textSize="16sp"
+                android:paddingBottom="16dp"
+                android:textColor="#333333" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Cuánto tiempo hacer ejercicio:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se recomienda hacer al menos 150 minutos de ejercicio moderado o 75 minutos de ejercicio vigoroso a la semana. Esto equivale a unos 30 minutos al día, cinco días a la semana."
+                android:textSize="16sp"
+                android:paddingBottom="16dp"
+                android:textColor="#333333" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Causas y consecuencias:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La falta de ejercicio puede llevar a problemas de salud como obesidad, enfermedades cardiovasculares, diabetes tipo 2 y problemas de salud mental como la depresión. Por otro lado, una rutina regular de ejercicio puede prevenir estas condiciones y mejorar la salud general."
+                android:textSize="16sp"
+                android:paddingBottom="16dp"
+                android:textColor="#333333" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Tipos de ejercicios que puedes hacer:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hay varios tipos de ejercicio que puedes incorporar en tu rutina: ejercicios aeróbicos (como correr, nadar y montar en bicicleta), entrenamiento de fuerza (como levantamiento de pesas), ejercicios de flexibilidad (como yoga) y ejercicios de equilibrio (como tai chi)."
+                android:textSize="16sp"
+                android:paddingBottom="16dp"
+                android:textColor="#333333" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Ejercicio aeróbico:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El ejercicio aeróbico, como caminar, correr, andar en bicicleta y nadar, es esencial para mejorar la salud cardiovascular. Ayuda a fortalecer el corazón y los pulmones, aumenta la resistencia y mejora la eficiencia del sistema cardiovascular."
+                android:textSize="16sp"
+                android:paddingBottom="16dp"
+                android:textColor="#333333" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
